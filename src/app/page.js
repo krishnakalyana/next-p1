@@ -6,13 +6,14 @@ import {
   CardHeader,
   CardTitle,
 } from "@/components/ui/card"
+import { ModeToggle } from "@/components/utilcomponents/theme-toggle";
 
 export default function Home() {
   return (
     <main className="">
       <Card>
         <CardHeader>
-          <CardTitle>Card Title</CardTitle>
+          <CardTitle>Card Title <ModeToggle /></CardTitle>
           <CardDescription>Card Description</CardDescription>
         </CardHeader>
         <CardContent>
